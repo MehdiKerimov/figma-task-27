@@ -28,9 +28,10 @@ h2{
         flex-direction: column;
        label{
         display: flex;
-        flex-direction: column;
+
         margin-bottom: 20px;
         input{
+            display: block;
             width: 370px;
             height: 32px;
         }
@@ -42,5 +43,12 @@ h2{
             min-height: 100vh;
             width: 700px;
         }
+    }
+    button{
+        background: none;
+        border: none;
+    }
+    label{
+        display: flex;
     }
 }
