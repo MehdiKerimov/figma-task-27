@@ -13,4 +13,5 @@ function hideBtn(){
     input.type='password'
     openBtn.syle.display='none'
     closeBtn.style.display='block'
+
 }
