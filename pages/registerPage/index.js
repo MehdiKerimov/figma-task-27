@@ -1,17 +1,16 @@
-let input=document.querySelector('input')
-let label=document.querySelector('label')
-let closeBtn=document.querySelector('.close-btn')
 let openBtn=document.querySelector('.open-btn')
-closeBtn.addEventListener('click',showBtn)
-function showBtn(){
+let closeBtn=document.querySelector('.close-btn')
+let input =document.querySelector('input')
+openBtn.addEventListener('click',hidePassword)
+function showPassword(){
+    console.log('dkjddf')
     input.type='text'
-    openBtn.syle.display='block'
+    openBtn.style.display='block'
     closeBtn.style.display='none'
 }
-openBtn.addEventListener('click',hideBtn)
-function hideBtn(){
-    input.type='password'
-    openBtn.syle.display='none'
-    closeBtn.style.display='block'
-
+closeBtn.addEventListener('click',showPassword)
+function hidePassword(){
+input.type='password'
+closeBtn.style.display='none'
+openBtn.style.display='block'
 }
