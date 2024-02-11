@@ -12,7 +12,7 @@ function showPassword(){
     closeBtn.style.display='none'
 }
 function hidePassword(){
-input.type='password'
+input.type='text'
 closeBtn.style.display='block'
 openBtn.style.display='none'
 }

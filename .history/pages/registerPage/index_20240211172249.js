@@ -1,13 +1,13 @@
 let openBtn=document.querySelector('.open-btn')
 let closeBtn=document.querySelector('.close-btn')
-let input =document.querySelector('.password-input')
+let input =document.querySelector('input')
 
 openBtn.addEventListener('click',hidePassword)
 closeBtn.addEventListener('click',showPassword)
 
 function showPassword(){
     console.log('dkjddf')
-    input.type='text'
+    input.type='password'
     openBtn.style.display='block'
     closeBtn.style.display='none'
 }
