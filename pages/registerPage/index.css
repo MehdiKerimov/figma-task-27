@@ -46,10 +46,10 @@
   min-height: 100vh;
   width: 700px;
 }
-.container button {
-  background: none;
+.container .submit-btn {
+  background: #D84444;
   border: none;
 }
 .container .open-btn {
   display: none;
-}
+}/*# sourceMappingURL=index.css.map */
