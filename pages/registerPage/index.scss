@@ -26,6 +26,10 @@ h2{
     form{
         display: flex;
         flex-direction: column;
+        p{
+           display: none;
+            color: #D84444;
+        }
        label{
         display: block;
 
