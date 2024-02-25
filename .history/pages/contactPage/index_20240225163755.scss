@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 100px 0px 0px 128px;
+  .left-container {
+    h1 {
+      color: var(--Text-Color-Primary, #2d2d2d);
+      font-family: Poppins;
+      font-size: 23px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 32px;
+    }
+    p {
+      margin-top: 10px;
+      margin-bottom: 40px;
+      width: 384px;
+      color: var(--Text-Color-Tertiary, #737373);
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      label {
+        input {
+          width: 384px;
+          height: 48px;
+          padding: ;
+          border-radius: 8px;
+          border: 1px solid var(--Neutrals-Rule, #d2d2d2);
+          background: var(--Neutrals-Text-field-bg, #f6f6f6);
+          margin-bottom: 24px;
+          outline: none;
+        }
+        .message {
+          width: 384px;
+          height: 128px;
+        }
+      }
+      button {
+        width: 384px;
+        height: 48px;
+        border-radius: 8px;
+        background: var(--Text-Color-Primary, #2d2d2d);
+        color: var(--Text-Color-Secondary, #FFF);
+text-align: center;
+
+/* Body/B1/Semibold 16px */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+      }
+    }
+  }
+  .right-container {
+    margin-left: 188px;
+    width: 640px;
+    height: 480px;
+    padding: 88px 318px 88px 64px;
+
+    background: var(--Text-Color-Accent, #db6b97);
+    ul {
+      li {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+
+        svg {
+          margin-right: 24px;
+          width: 24px;
+          height: 24px;
+        }
+        p {
+        }
+      }
+    }
+    .a-1 {
+      display: flex;
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+      a {
+        margin-right: 48px;
+      }
+    }
+  }
+  .bottom-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+

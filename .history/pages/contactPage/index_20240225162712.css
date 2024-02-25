@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding: 100px 0px 0px 128px;
+}
+.container .left-container h1 {
+  color: var(--Text-Color-Primary, #2d2d2d);
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.container .left-container p {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 384px;
+  color: var(--Text-Color-Tertiary, #737373);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.container .left-container form {
+  display: flex;
+  flex-direction: column;
+}
+.container .left-container form label input {
+  width: 384px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid var(--Neutrals-Rule, #d2d2d2);
+  background: var(--Neutrals-Text-field-bg, #f6f6f6);
+  margin-bottom: 24px;
+}
+.container .left-container form label .message {
+  width: 384px;
+  height: 128px;
+}
+.container .left-container form button {
+  width: 384px;
+  height: 48px;
+  border-radius: 8px;
+  background: var(--Text-Color-Primary, #2d2d2d);
+}
+.container .right-container {
+  margin-left: 188px;
+  width: 640px;
+  height: 480px;
+  padding: 88px 318px 88px 64px;
+  background: var(--Text-Color-Accent, #db6b97);
+}
+.container .right-container ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.container .right-container ul li svg {
+  margin-right: 24px;
+  width: 24px;
+  height: 24px;
+}
+.container .right-container ul li p {
+  margin-bottom: 40px;
+}
+.container .right-container .a-1 {
+  display: flex;
+  justify-content: center;
+}
+.container .right-container .a-1 svg {
+  width: 24px;
+  height: 24px;
+}
+.container .right-container .a-1 a {
+  margin-right: 48px;
+}
